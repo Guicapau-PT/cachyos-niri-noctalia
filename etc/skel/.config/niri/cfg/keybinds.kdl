@@ -79,8 +79,8 @@ binds {
     Mod+CTRL+WheelScrollRight           { move-column-right; }
     Mod+CTRL+WheelScrollLeft            { move-column-left; }
 
-    Mod+Shift+WheelScrollDown           { focus-column-right; }
-    Mod+Shift+WheelScrollUp             { focus-column-left; }
+    Mod+Shift+WheelScrollDown           cooldown-ms=150 { focus-column-right; }
+    Mod+Shift+WheelScrollUp             cooldown-ms=150 { focus-column-left; }
     Mod+CTRL+Shift+WheelScrollDown      { move-column-right; }
     Mod+CTRL+Shift+WheelScrollUp        { move-column-left; }
 
