@@ -8,6 +8,8 @@
         QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
         XDG_CURRENT_DESKTOP "niri"
         XDG_SESSION_TYPE "wayland"
+        PROTON_USE_NTSYNC "1"
+        PROTON_ENABLE_WAYLAND "1"
     }
 
     cursor {
