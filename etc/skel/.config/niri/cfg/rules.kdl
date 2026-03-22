@@ -7,3 +7,9 @@
         match namespace="^noctalia-wallpaper*"
         place-within-backdrop true
     }
+
+window-rule {
+    match app-id=r#"^steam_app_.*$"#
+    match app-id=r#"^.*\.exe$"#
+    variable-refresh-rate true
+}
